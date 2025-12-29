@@ -18,7 +18,7 @@ if (zodiacIndex === 0) {
   zodiac = "Snake";
 } else if (zodiacIndex === 6) {
   zodiac = "Horse";
-} else if (zodiacIndex === 7) {
+} else if (zodiacIndex == 7) {
   zodiac = "Goat";
 } else if (zodiacIndex === 8) {
   zodiac = "Monkey";
