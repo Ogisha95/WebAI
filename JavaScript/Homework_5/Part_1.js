@@ -17,7 +17,7 @@ let messageInput = prompt("What does the animal say?");
 let yourAnimal = {
     name: nameInput,
     kind: kindInput,
-    speak: function (message) {
+    speak: function (messageInput) {
 
         console.log(" Your dog is called a " + this.name + " ," + " is a " + this.kind + " and says " + messageInput)
     }

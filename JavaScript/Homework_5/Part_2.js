@@ -11,7 +11,9 @@ let bookInfo = {
     console.log("Already read '" + this.title + "' by " + this.author + ".");
     }   else if (readingInput === "no" || readingInput === "NO") {
     console.log("You still need to read '" + this.title + "' by " + this.author + ".");
-}
+    }else {
+        console.log("You still need to read '" + this.title + "' by " + this.author + ".")
+    }
     }
 };
 
