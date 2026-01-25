@@ -2,7 +2,6 @@ $(document).ready(function(){
 let myButton = $("#button");
 let firstInput = $("#input1");
 let secondInput = $("#input2");
-let h1 = $("h1");
 let h3 = $("h3");
 
 myButton.click(function(){
