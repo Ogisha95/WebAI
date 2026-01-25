@@ -15,8 +15,7 @@ myButton.click(function(){
         return; 
     }
 
-$(h1).text(`${firstInput.val()}`)
-$(h1).css("color", secondInput.val());
+$(this).after(`<h1 style="color: ${secondInput.val()}">${firstInput.val()}</h1>`);
 });
 
 });
