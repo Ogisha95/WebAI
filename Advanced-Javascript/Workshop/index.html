@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="/WebAI Course/Advanced-Javascript/Workshop/src/styles.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="left-section">
+            <div class="icon"><img src="/WebAI Course/Advanced-Javascript/Workshop/src/img/cloudy.svg" alt=""></div>
+            <nav>
+                <a id="statisticsNav" class="active" href="#">Statistics</a>
+                <a id="hourlyNav" href="#">Hourly</a>
+                <a id="aboutNav" href="#">About</a>
+            </nav>
+        </div>
+
+        <div class="right-section">
+            <input type="text" placeholder="Search a city" />
+            <button>Search</button>
+        </div>
+    </header>
+
+    <section id="statisticsMain" class="active">
+        <div>
+            <h1 class="statisticsH2">Weather Alert App</h1>
+            <p>Welcome to the most accurate weather app!</p>
+        </div>
+    </section>
+
+    <section id="hourlyMain">
+        <div>
+            <h1 class="hourlyH2">Hourly data</h1>
+            <p>Here you can read the hourly weather report for the following days. Keep in mind that it is not actually
+                every hour, but every 3-5 hours.</p>
+        </div>
+    </section>
+
+    <section id="aboutMain">
+        <div>
+            <h1 class="aboutH2">About</h1>
+        </div>
+    </section>
+
+    <script src="/WebAI Course/Advanced-Javascript/Workshop/app.js"></script>
+</body>
+
+</html>
